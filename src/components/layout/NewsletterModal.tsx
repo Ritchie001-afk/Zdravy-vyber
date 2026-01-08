@@ -14,13 +14,29 @@ export default function NewsletterModal() {
         setMounted(true);
     }, []);
 
-    const handleSubmit = (e: React.FormEvent) => {
+    const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         if (!email) return;
-        // Simulate API call
-        setTimeout(() => {
-            setIsSubmitted(true);
-        }, 500);
+
+        // Formspree submission
+        try {
+            const response = await fetch("https://formspree.io/f/xaqnrlla", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ email }),
+            });
+
+            if (response.ok) {
+                setIsSubmitted(true);
+                setEmail("");
+            } else {
+                alert("Něco se pokazilo. Zkuste to prosím znovu.");
+            }
+        } catch (error) {
+            alert("Chyba připojení.");
+        }
     };
 
     const reset = () => {

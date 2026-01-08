@@ -10,6 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://seo-sandbox-blog.vercel.app'),
   title: "Zdravý Výběr | Odborný průvodce světem doplňků",
   description: "Evidence-based recenze a články o doplňcích stravy. Zjistěte, co skutečně funguje.",
 };

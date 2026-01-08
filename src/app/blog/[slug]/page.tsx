@@ -46,6 +46,23 @@ export default async function BlogPostPage(props: Props) {
             <div className="mx-auto max-w-2xl px-6 py-16 sm:py-24">
                 {/* Minimal Header */}
                 <header className="mb-12 text-center">
+                    <script
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{
+                            __html: JSON.stringify({
+                                '@context': 'https://schema.org',
+                                '@type': 'Article',
+                                headline: post.title,
+                                description: post.metaDescription,
+                                image: `https://seo-sandbox-blog.vercel.app${post.imageUrl}`,
+                                datePublished: post.date,
+                                author: {
+                                    '@type': 'Organization',
+                                    name: 'Zdravý Výběr',
+                                },
+                            }),
+                        }}
+                    />
                     <div className="flex items-center justify-center gap-3 text-xs font-bold tracking-widest text-emerald-500 uppercase mb-8">
                         <span>{post.category}</span>
                         <span className="text-slate-600">•</span>
