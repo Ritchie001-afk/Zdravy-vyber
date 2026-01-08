@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
             allow: '/',
             disallow: '/private/',
         },
-        sitemap: 'https://seo-sandbox-blog.vercel.app/sitemap.xml',
+        sitemap: 'https://zdravy-vyber.cz/sitemap.xml',
     };
 }
