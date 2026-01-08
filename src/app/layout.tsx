@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 import NewsletterModal from "@/components/layout/NewsletterModal";
+import { GoogleAnalytics } from '@next/third-parties/google';
 import "./globals.css";
 
 const inter = Inter({
@@ -42,6 +43,7 @@ export default function RootLayout({
         </nav>
 
         {children}
+        <GoogleAnalytics gaId="G-2FBQE93ZL7" />
       </body>
     </html>
   );
