@@ -317,5 +317,53 @@ export const blogPosts: BlogPost[] = [
       <h2>Kdy to zabere?</h2>
       <p>Na trávení (nafouklé břicho) to poznáte za pár dní. Ale na psychiku a imunitu si musíte počkat. Osidlování střev je pomalý proces, trvá to klidně 1 až 3 měsíce pravidelného užívání.</p>
     `
+  },
+  {
+    slug: 'kreatin-monohydrat-davkovani',
+    title: 'Kreatin Monohydrát: Král suplementů. Proč ho brát a jaký zvolit?',
+    excerpt: 'Zvyšuje sílu, zlepšuje regeneraci a pomáhá i mozku. Kreatin není jen pro kulturisty. Podíváme se na vědecká fakta o monohydrátu, dávkování a mýtech o ledvinách.',
+    date: '2026-01-16',
+    readTime: '10 min čtení',
+    category: 'Výkon',
+    imageUrl: '/images/blog/creatine_powder_abstract_1767877395182.png',
+    metaDescription: 'Vědecká analýza Kreatinu Monohydrátu. ATP resyntéza, vliv na kognitivní funkce a hydrataci svalů. Nasycovací fáze vs. konstantní dávkování.',
+    scientificDisclaimer: true,
+    keyTakeaways: [
+      "Nejvíce prozkoumaný doplněk na světě (bezpečný).",
+      "Monohydrát je nejúčinnější forma (ostatní jsou marketing).",
+      "Zvyšuje sílu, svaly i paměť.",
+      "Nevyžaduje nasycovací fázi, stačí 3-5 g denně.",
+      "Zadržuje vodu VE SVALECH, ne v podkoží (to je dobře)."
+    ],
+    references: [
+      "Kreider, R. B., et al. (2017). International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine. Journal of the International Society of Sports Nutrition.",
+      "Avgerinos, K. I., et al. (2018). Effects of creatine supplementation on cognitive function of healthy individuals: A systematic review of randomized controlled trials. Experimental Gerontology.",
+      "Rawson, E. S., & Volek, J. S. (2003). Effects of creatine supplementation and resistance training on muscle strength and weightlifting performance. Journal of Strength and Conditioning Research."
+    ],
+    content: `
+      <h2>Palivo pro svaly (Jak funguje ATP)</h2>
+      <p>Představte si, že vaše svaly jsou auto. ATP (adenosintrifosfát) je benzín. Když uděláte těžký dřep nebo sprint, benzín (ATP) dojde bleskově rychle – asi za 2 až 3 sekundy. Tělo pak musí vyrobit nový.</p>
+      <p>A tady nastupuje kreatin. Kreatin je jako "extra kanystr s benzínem" v kufru. Půjčí svou energii (fosfátovou skupinu) vybitému ATP a bleskově ho dobije. Díky tomu zvládnete udělat o 1–2 opakování v sérii víc. A právě ta opakování navíc dávají svalům signál k růstu.</p>
+
+      <h2>Monohydrát vs. Zbytek světa</h2>
+      <p>Možná jste viděli reklamy na "Kreatin HCL", "Kre-Alkalyn" nebo "Kreatin Ethyl Ester". Výrobci tvrdí, že jsou lepší a vstřebatelnější. Věda říká opak.</p>
+      <ul>
+        <li><strong>Monohydrát: </strong> 99% všech studií bylo děláno na monohydrátu. Je nejlevnější a funguje perfektně. Vstřebatelnost je téměř 100 %.</li>
+        <li><strong>Ostatní formy: </strong> Jsou dražší a často méně stabilní (v žaludku se rozpadnou na neúčinný kreatinin dříve, než se dostanou do svalu).</li>
+      </ul>
+      <p><strong>Verdikt: </strong> Ušetřete peníze a kupte si obyčejný, kvalitní Monohydrát (ideálně s ochrannou známkou <em>Creapure®</em>).</p>
+
+      <h2>Mýty: Ledviny a "Zavodnění"</h2>
+      <p>Pořád koluje mýtus, že kreatin ničí ledviny. Toto bylo mnohokrát vyvráceno. U zdravých lidí nemá kreatin na ledviny žádný negativní vliv (a to ani po 5 letech užívání).</p>
+      <p>A zavodnění? Ano, kreatin natahuje vodu. Ale natahuje ji <strong>DO SVALOVÝCH BUNĚK</strong>, ne do podkoží. To je skvělé! Hydratovaná buňka je anabolická (lépe roste) a regeneruje. Díky kreatinu budou svaly vypadat plnější a tvrdší, ne oteklé.</p>
+
+      <h2>Kreatin a Mozek (Nečekaný bonus)</h2>
+      <p>Váš mozek spotřebovává obrovské množství energie (ATP), stejně jako svaly. Nové studie ukazují, že kreatin skvěle funguje i jako "nootropikum" (látka zlepšující funkce mozku). Zlepšuje krátkodobou paměť a snižuje mentální únavu, hlavně když jste nevyspalí nebo ve stresu. Je to super hack pro studenty a manažery.</p>
+
+      <h2>Jak dávkovat?</h2>
+      <p>Zapomeňte na složité "nasycovací fáze" (20 g denně). Jsou zbytečné a jen vás z nich bude bolet břicho.
+      <br><strong>Zlatý standard: </strong> Berte <strong>3 až 5 gramů denně</strong> (jedna čajová lžička).<br>
+      <strong>Kdy: </strong> Kdykoliv. Není nutné ho brát před tréninkem. Důležitá je dlouhodobá pravidelnost, aby se svaly "nasytily". Berte ho i v dny volna.</p>
+    `
   }
 ];
