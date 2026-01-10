@@ -38,6 +38,7 @@ export default function Home() {
 
       {/* Blog Grid */}
       <section className="mx-auto max-w-7xl px-6 lg:px-8 pb-32">
+        <h2 className="sr-only">Seznam článků</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {blogPosts.map((post) => (
             <Link
