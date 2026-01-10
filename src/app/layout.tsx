@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://zdravy-vyber.cz'),
   title: "Zdravý Výběr | Odborný průvodce světem doplňků",
   description: "Evidence-based recenze a články o doplňcích stravy. Zjistěte, co skutečně funguje.",
+  icons: {
+    icon: '/icon.png',
+  },
 };
 
 export default function RootLayout({
