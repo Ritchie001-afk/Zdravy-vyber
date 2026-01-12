@@ -25,11 +25,11 @@ export default function Home() {
 
           <h1 className="text-5xl lg:text-7xl font-bold tracking-tight text-white mb-8 max-w-4xl mx-auto leading-[1.1]">
             Doplňky stravy <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-300">- jednoduchý průvodce.</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-300">jednoduchý průvodce.</span>
           </h1>
 
           <p className="text-lg text-slate-400 max-w-2xl mx-auto mb-12 leading-relaxed">
-            Detailní analýzy účinnosti a odborné články o suplementaci. Přinášíme fakta ze světa klinických studií.
+            Srozumitelné informace o tom, co opravdu funguje. Pomůžeme vám zorientovat se ve světě doplňků bez složitých pojmů.
           </p>
 
 
