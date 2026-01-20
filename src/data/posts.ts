@@ -366,4 +366,119 @@ export const blogPosts: BlogPost[] = [
       <strong>Kdy: </strong> Kdykoliv. Není nutné ho brát před tréninkem. Důležitá je dlouhodobá pravidelnost, aby se svaly "nasytily". Berte ho i v dny volna.</p>
     `
   }
+  ,
+  {
+    slug: 'syrovatkovy-protein-whey',
+    title: 'Syrovátkový Protein (Whey): Král anabolismu a biologická hodnota',
+    excerpt: 'Hydrolýza, izolát nebo koncentrát? Detailní rozbor aminokyselinového profilu (BCAA) a rychlosti absorpce. Proč je syrovátka nadřazená rostlinným zdrojům?',
+    date: '2026-01-18',
+    readTime: '11 min čtení',
+    category: 'Suplementy',
+    imageUrl: '/images/blog/whey_protein_molecular_structure_1768898222075.png',
+    metaDescription: 'Vědecký rozbor syrovátkového proteinu. Biologická hodnota (BV) a stimulace mTOR dráhy. Kdy zvolit izolát a kdy koncentrát? Leucinový práh.',
+    scientificDisclaimer: true,
+    keyTakeaways: [
+      "Nejkvalitnější zdroj bílkovin pro lidské tělo.",
+      "Rychle se vstřebává, ideální po tréninku.",
+      "Obsahuje vysoké množství Leucinu (spouštěč růstu).",
+      "Izolát je pro ty, co nesnesou laktózu.",
+      "Není to 'chemie', je to sušená část mléka."
+    ],
+    references: [
+      "Devries, M. C., & Phillips, S. M. (2015). Supplemental protein in support of muscle mass and health: advantage whey. Journal of Food Science.",
+      "Tang, J. E., et al. (2009). Ingestion of whey hydrolysate, casein, or soy protein isolate: effects on mixed muscle protein synthesis at rest and following resistance exercise in young men. Journal of Applied Physiology.",
+      "Jäger, R., et al. (2017). International Society of Sports Nutrition Position Stand: protein and exercise."
+    ],
+    content: `
+      <h2>Není bílkovina jako bílkovina</h2>
+      <p>Pokud se podíváme na kvalitu bílkovin optikou biochemie, syrovátka (Whey) vyhrává na plné čáře. Proč? Kvůli **Biologické hodnotě (BV)**. To je číslo, které říká, jak efektivně dokáže vaše tělo danou bílkovinu využít pro stavbu svalů. Vejce mají hodnotu 100. Syrovátkový protein má hodnotu 104 až 150 (podle zpracování). Rostlinné zdroje se často pohybují jen kolem 50–70.</p>
+
+      <h2>Leucinový práh: Spínač růstu</h2>
+      <p>Aby svaly začaly růst (anabolismus), musíte v krvi překročit určitou hladinu aminokyseliny **Leucin**. Říkáme tomu "leucinový práh". Syrovátka je na leucin extrémně bohatá. Stačí cca 25g proteinu a "spínač" se sepne. U jiných zdrojů byste museli sníst dvojnásobné množství jídla, abyste dosáhli stejného efektu.</p>
+
+      <h2>Koncentrát vs. Izolát vs. Hydro</h2>
+      <ul>
+        <li><strong>Koncentrát (WPC):</strong> Zlatý standard. Chutná nejlépe, obsahuje trochu tuku a laktózy. Zachovává si prospěšné bioaktivní frakce (imunoglobuliny).</li>
+        <li><strong>Izolát (WPI):</strong> Je "přečištěný". Má více bílkovin (90%+) a skoro žádnou laktózu. Ideální do diety nebo pro lidi s intolerancí.</li>
+        <li><strong>Hydrolyzát (Hydro):</strong> Je předtrávený enzymy. Vstřebá se bleskově (do 15 min). Je drahý a často hořký. Pro amatéra zbytečný luxus.</li>
+      </ul>
+
+      <h2>Kdy ho pít?</h2>
+      <p>Díky rychlému vstřebávání je králem v době **po tréninku**, kdy tělo volá po živinách (anabolické okno). Ale upřímně? Důležitější je celkový příjem bílkovin za den (cca 1.6 – 2g na kg váhy). Jestli si dáte protein ráno nebo večer, je sekundární.</p>
+    `
+  },
+  {
+    slug: 'melatonin-spanek-modre-svetlo',
+    title: 'Melatonin a Architektura spánku: Temná stránka modrého světla',
+    excerpt: 'Hormon tmy vs. LED obrazovky. Jak suprachiasmatická jádra řídí cirkadiánní rytmus? Vliv melatoninu na REM fázi a proč ' + "'více neznamená lépe'" + ' v dávkování.',
+    date: '2026-01-19',
+    readTime: '13 min čtení',
+    category: 'Spánek',
+    imageUrl: '/images/blog/melatonin_sleep_cycle_abstract_1768898364106.png',
+    metaDescription: 'Mechanismus produkce melatoninu v epifýze. Vliv modrého světla (450-480nm) na potlačení sekrece. Optimální dávkování (0.3mg vs 5mg).',
+    scientificDisclaimer: true,
+    keyTakeaways: [
+      "Melatonin není prášek na spaní, je to 'startér' spánku.",
+      "Modré světlo (mobil) ho blokuje.",
+      "Méně je více: 0.5 mg funguje lépe než 5 mg.",
+      "Spánek je nejlepší (a nejlevnější) regenerace.",
+      "Brýle blokující modré světlo opravdu fungují."
+    ],
+    references: [
+      "Zhdanova, I. V., et al. (2001). Melatonin treatment for age-related insomnia. The Journal of Clinical Endocrinology & Metabolism.",
+      "Reiter, R. J., et al. (1995). Melatonin as an antioxidant: under promises but over delivers. International Journal of Biochemistry & Cell Biology.",
+      "Cajochen, C., et al. (2003). Role of melatonin in the regulation of human circadian rhythms and sleep. Journal of Neuroendocrinology."
+    ],
+    content: `
+      <h2>Hormon tmy (Drákula mezi hormony)</h2>
+      <p>Melatonin se tvoří v malé žláze v mozku zvané šišinka (epifýza). Ale má to háček – tvoří se **pouze ve tmě**. Jakmile sítnice oka zaznamená světlo (hlavně to modré z mobilů a LED žárovek), výroba se okamžitě zastaví. Proto v dnešní době "světelného smogu" trpíme epidemií nespavosti.</p>
+
+      <h2>Proč vám 5 mg nezabere?</h2>
+      <p>V lékárnách a e-shopech se často prodávají obří dávky (3 mg, 5 mg i více). To je z fyziologického hlediska nesmysl. Vaše tělo si přirozeně vyrobí jen asi 0.3 mg. Pokud si vezmete 5 mg, zaplavíte receptory takovým množstvím, že příští den "přeestanou poslouchat" (desenzitivizace).
+      <br><strong>Paradox: </strong> Menší dávka (0.3 – 0.5 mg) často funguje lépe a dlouhodoběji než koňská dávka.</p>
+
+      <h2>Architektura spánku</h2>
+      <p>Melatonin není sedativum (jako Stilnox). On vás "nevypne". On jen dá tělu signál: <em>"Je noc, začni brzdit metabolismus, sniž teplotu a připrav se na regeneraci."</em> Pomáhá zkrátit dobu usínání a zlepšuje přechod do hlubokých fází spánku, kde se opravují svaly a čistí mozek (glymfatický systém).</p>
+
+      <h2>Biohack: Červené brýle</h2>
+      <p>Pokud musíte večer pracovat na počítači, pořiďte si brýle blokující modré světlo. Je to vědecky ověřená metoda, jak "podvést" mozek, aby si myslel, že je tma, i když koukáte do monitoru. Výroba melatoninu tak může běžet na plné obrátky.</p>
+    `
+  },
+  {
+    slug: 'kofein-adenosin-vykon',
+    title: 'Kofein: Antagonista adenosinu a palivo pro výkon',
+    excerpt: 'Molekulární mimikry: Jak kofein blokuje únavu v mozku? Poločas rozpadu (CYP1A2), vliv na kortizol a proč káva před tréninkem zvyšuje oxidaci tuků.',
+    date: '2026-01-20',
+    readTime: '9 min čtení',
+    category: 'Výkon',
+    imageUrl: '/images/blog/caffeine_adenosine_receptor_block_1768898516890.png',
+    metaDescription: 'Farmakokinetika kofeinu. Antagonismus adenosinových receptorů A1 a A2a. Ergogenní efekt ve vytrvalostním i silovém sportu. Genetika metabolismu.',
+    scientificDisclaimer: true,
+    keyTakeaways: [
+      "Kofein nedodává energii, jen 'půjčuje' tím, že oddálí únavu.",
+      "Funguje tak, že v mozku ucpe receptory pro únavu (adenosin).",
+      "Ideální dávka: 3-6 mg na kg váhy (cca 200-400 mg).",
+      "Pozor na poločas rozpadu (6-8 hodin) – nepijte ho odpoledne.",
+      "Je to nejlevnější a nejúčinnější 'pre-workout'."
+    ],
+    references: [
+      "Spriet, L. L. (2014). Exercise and sport performance with low doses of caffeine. Sports Medicine.",
+      "Ribeiro, J. A., & Sebastiao, A. M. (2010). Caffeine and adenosine. Journal of Alzheimer's Disease.",
+      "Grgic, J., et al. (2020). Wake up and smell the coffee: caffeine supplementation and exercise performance. Journal of the International Society of Sports Nutrition."
+    ],
+    content: `
+      <h2>Falešný klíč do zámku únavy</h2>
+      <p>V průběhu dne se ve vašem mozku hromadí látka zvaná **adenosin**. To je "molekula únavy". Sedá si na své receptory a tím vás zpomaluje a uspává. Kofein vypadá molekulárně skoro stejně jako adenosin. Díky tomu se dokáže "vylhát" do těchto receptorů, obsadit je, ale neaktivovat je! Adenosin si pak nemá kam sednout a vy únavu prostě necítíte.</p>
+
+      <h2>Poločas rozpadu: Neviditelný nepřítel spánku</h2>
+      <p>Kofein je super sluha, ale zlý pán. Jeho poločas rozpadu je u průměrného člověka **6 až 8 hodin**.
+      <br>To znamená: Dáte si v 16:00 dvojité espresso (100 mg). O půlnoci, když jdete spát, máte v krvi stále 50 mg kofeinu (jako byste si dali malé kafe přímo v posteli). To vám sice nezabrání usnout, ale drasticky to sníží kvalitu hlubokého spánku.</p>
+
+      <h2>Genetika: Jste rychlí nebo pomalí?</h2>
+      <p>Rychlost odbourávání kofeinu řídí enzym v játrech (CYP1A2). My lidé se dělíme na "rychlé metabolizéry" (káva jim nevadí ani večer) a "pomalé metabolizéry" (jedno kafe ráno a v noci koukají do stropu). Zjistěte, do které skupiny patříte, a podle toho kofein dávkujte.</p>
+
+      <h2>Ergogenní efekt: Legální doping</h2>
+      <p>Studie jasně ukazují, že kofein zvyšuje výkon o 3–15 %. Pomáhá mobilizovat mastné kyseliny (spalovat tuk) jako zdroj energie, šetří svalový glykogen a snižuje vnímání bolesti při tréninku. Pro maximální efekt si ho dejte asi 45–60 minut před výkonem.</p>
+    `
+  }
 ];
